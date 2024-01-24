@@ -9,11 +9,11 @@ const App = () => {
     <BrowserRouter>
       <Routes>
 
-        <Route path='/register' element={<Register />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/setAvatar' element={<SetAvatar />} />
+        <Route path='https://chat-app-ten-ebon.vercel.app/register' element={<Register />} />
+        <Route path='https://chat-app-ten-ebon.vercel.app/login' element={<Login />} />
+        <Route path='https://chat-app-ten-ebon.vercel.app/setAvatar' element={<SetAvatar />} />
 
-        <Route path='/' element={<Chat />} />
+        <Route path='https://chat-app-ten-ebon.vercel.app/' element={<Chat />} />
 
 
       </Routes>
